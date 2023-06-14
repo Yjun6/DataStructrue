@@ -249,18 +249,20 @@ public class ListNode {
     public void InlineSort(){
         Node root = head;
         while(root != null && root.next != null) {
-            Node min = root.next;
-            Node tmp = root.next;
+            Node min = root;
+            Node tmp = root;
             while (tmp != null) {
                 if (tmp.date < min.date) {
                     min = tmp;
                 }
                 tmp = tmp.next;
             }
-            //min和root.next交换
-            int t = root.next.date;
-            root.next.date = min.date;
+            //min和root交换
+            int t = root.date;
+            root.date = min.date;
             min.date = t;
+
+            root = root.next;
         }
     }
 
