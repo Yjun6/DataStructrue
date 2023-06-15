@@ -6,7 +6,7 @@ public class Test {
     //主界面
     public static void menu(){
         System.out.println();
-        System.out.println("*****************欢迎来到电子小词典****************");
+        System.out.println("*****************欢迎来到电子小字典****************");
         System.out.println("***********1.增加单词          2.删除单词**********");
         System.out.println("***********3.修改单词          4.查找单词**********");
         System.out.println("***********5.查看全部单词       6.退出词典**********");

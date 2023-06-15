@@ -168,7 +168,7 @@ public class Dictionary extends DictionaryException implements Comparator<String
         return tmp1;
     }
 
-    //以前序遍历的形式输出
+    //前序遍历的形式输出
     public void order(){
         order1(root);
     }
