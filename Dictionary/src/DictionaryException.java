@@ -8,7 +8,8 @@ import java.io.PrintStream;
  * Time:15:04
  */
 
-//建立二叉搜索树的异常
+/*
+* 建立二叉搜索树的异常*/
 public class DictionaryException extends RuntimeException {
 
     public DictionaryException() {
